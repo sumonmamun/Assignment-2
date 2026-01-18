@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+    background-color: rgba(65, 37, 103, 1);
+    border: 200px;  
+}
+.nav-links {
+    gap: 30px;
+}
+.subscribe-button {
+    background: linear-gradient(90deg,#ff9900, #ff00cc, rgba(145, 0, 248, 1));
+    color: white;
+    border-radius: 20px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+}
