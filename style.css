@@ -51,6 +51,7 @@
 .subscribe-btn {
   padding: 10px 22px;
   border-radius: 30px;
+  cursor: pointer
   border: none;
   cursor: pointer;
   font-size: 14px;
@@ -316,4 +317,13 @@ background: rgba(53, 17, 101, 0.4);
   margin-bottom: 50px;
 }
 
-/
+
+/*Responsive media query*/
+@media screen and (max-width:576px) {
+  .header,
+    .navbar, 
+    .features {
+      flex-direction: column;
+    }
+        
+  }
